@@ -7,6 +7,7 @@
 export default defineNuxtConfig({
   //target: 'static', // Untuk deploy di Netlify
   modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
+
   app: {
     head: {
       title: 'PWR Creative - Your Creative Partner',
@@ -15,4 +16,6 @@ export default defineNuxtConfig({
       ],
     },
   },
+
+  compatibilityDate: '2025-02-24',
 });
